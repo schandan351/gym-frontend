@@ -30,3 +30,46 @@ header nav a:hover{
 
 /* desin for intro starts */
 
+#intro{
+    min-height: 350px;
+    background-image: url(../images/beautiful-blur-casual-935756.jpg);
+    background-size: cover;
+}
+
+.intro-text{
+    text-align: center;
+    position: relative;
+    top: 100px;
+
+}
+
+.intro-text h2{
+    padding: 15px;
+    color: #fff;
+    background-color:rgba(0, 0,0,.3);
+}
+
+.intro-text h3{
+    color: #fff;
+    background-color:rgba(0, 0,0,.3);
+    padding: 10px;
+}
+.intro-text .call-to-action{
+    padding: 20px;
+
+}
+
+.intro-text .call-to-action a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background-color: aqua;
+    padding: 10px;
+    margin: 15px 10px 10px;
+}
+
+.intro-text .call-to-action a:hover{
+    box-shadow: 15px 10px 10px rgba(0, 0,0,0.3);
+}
+
+/* end of intro section */
