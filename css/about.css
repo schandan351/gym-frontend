@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #fff;
+}
+header a{
+    display: inline-block;
+    padding:15px;
+    text-decoration: none;
+}
+
+header .active{
+    background-color: rgba(0,0, 0, 0.3);
+}
+header #logo{
+    font-size: 1.5em;
+}
+header nav li{
+    display: inline-block;
+}
+header nav a{
+    transition: background-color 0.4s;
+}
+
+header nav a:hover{
+    background-color: antiquewhite;
+}
+
+/* design for header ends */
+
+/* desings of intro */
+#intro{
+    background-color:rgba(111, 124, 120, 0.24);
+    text-align: center;
+}
+
+#intro .intro-text{
+    background-image: url(../images/adult-blur-close-up-241456.jpg);
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+#intro .intro-text h1{
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    top: 200px;
+    background-color: rgba(0,0, 0, 0.3);
+    margin: 10px 90px;
+}
+
+#intro .shortl-about-us{
+    margin: 30px;
+    padding: 10px;
+    border-bottom: 2px solid rgb(141, 117, 117);
+}
+#intro .shortl-about-us h1{
+    padding: 10px;
+    font-size: 2em;
+}
+#intro .shortl-about-us p{
+    padding: 10px;
+    margin: 0px 100px 0 100px;
+}
+
+.learn-more a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background-color: rgba(61, 242, 248, 0.712);
+    padding: 15px;
+    margin: 10px 10px 10px;
+}
+
+/* end of about us intro section */
+
+/* starts of companyhistory section */
+
+#Company-History{
+    background-color: #fff;
+}
+#Company-History h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    border-bottom: 2px solid rgb(141, 117, 117);
+    margin: 10px;
+}
+
+#Company-History .history-container{
+    padding: 10px;
+    margin: 20px 30px;
+}
+
+#Company-History .history-container .history{
+    display:inline-block;
+    width: 42%;
+    padding: 20px;
+    margin: 20px 40px;
+}
+#Company-History .history-container .history h4{
+    color: aquamarine;
+    font-size: 1.1em;
+}
+#Company-History .history-container .history h5{
+    color: aquamarine;
+    font-size: 1em;
+}
+
+#Company-History .learn-more{
+    text-align: center;
+}
+
+/* end of companay history section */
+
+/* starts of teams member design */
