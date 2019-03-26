@@ -120,3 +120,37 @@ header nav a:hover{
 /* end of companay history section */
 
 /* starts of teams member design */
+
+#team{
+    background-color: rgba(111, 124, 120, 0.24);
+    text-align: center;
+}
+#team h1{
+   
+    padding: 20px;
+    margin: 10px;
+    border-bottom: 1px solid rgb(141, 117, 117);
+}
+
+#team .team-containers{
+    margin: 20px 20px;
+    padding:20px;
+}
+#team .team-containers .team-name{
+    display: inline-block;
+    width: 35%;
+    height: 300px;
+    margin: 20px;
+    background-color: #fff;
+}
+#team .team-containers .team-name img{
+    margin-top: 40px;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+
+}
+/* end of team member section */
+
+/* starts of faq section */
+
