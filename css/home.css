@@ -31,8 +31,8 @@ header nav a:hover{
 /* desin for intro starts */
 
 #intro{
-    min-height: 350px;
-    background-image: url(../images/beautiful-blur-casual-935756.jpg);
+    min-height: 450px;
+    background-image: url(../images/casual-close-up-colors-1954524.jpg);
     background-size: cover;
 }
 
@@ -105,6 +105,29 @@ header nav a:hover{
 /* for work classes */
 .work{
     height: 250px;
-   
     margin: 20px 10px;
+    background-size: cover;
+    position: relative;
+}
+.work.one{
+    background-image: url(../images/abs-adult-athlete-1229356.jpg);
+}
+.work.two{
+    background-image: url(../images/arm-biceps-bodybuilder-1978505.jpg);
+}
+.work.three{
+    background-image: url(../images/active-beautiful-woman-bicep-curls-1919434.jpg);
+}
+
+.work-title{
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(245, 237, 237, 0.1);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.work-title h3{
+    color:aqua;
 }
