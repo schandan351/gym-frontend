@@ -154,3 +154,26 @@ header nav a:hover{
 
 /* starts of faq section */
 
+#faq h1{
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 1px solid rgb(141, 117, 117);
+}
+
+#faq .faq-container{
+    padding: 10px;
+    margin: 20px 20px;
+}
+
+#faq .faq-container .faq-item{
+    display: inline-block;
+    width: 42%;
+    margin: 20px;
+    padding: 10px;
+}
+#faq .learn-more {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ends of faq section */
