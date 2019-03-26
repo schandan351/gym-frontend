@@ -65,7 +65,7 @@ header nav a:hover{
     text-decoration: none;
     color: #fff;
     display: inline-block;
-    background-color: aqua;
+    background-color: rgba(61, 242, 248, 0.712);
     padding: 10px;
     margin: 15px 10px 10px;
 }
@@ -78,7 +78,7 @@ header nav a:hover{
 
 /* start of welcome section */
 #welcome{
-    background-color: rgb(11, 114, 80);
+    background-color: rgba(5, 63, 65, 0.712);
     padding: 20px 10px;
     text-align: center;
 }
@@ -104,6 +104,10 @@ header nav a:hover{
     color:#fff;
     padding: 10px;
     border-bottom: 3px solid #fff;
+}
+
+#welcome .services p{
+    padding: 20px;
 }
 /* for work classes */
 .work{
@@ -190,7 +194,7 @@ header nav a:hover{
 .article-bottom a{
     text-decoration: none;
     padding: 10px;
-    background-color: rgb(5, 41, 29);
+    background-color:rgba(5, 63, 65, 0.712);
     color: black;
 
 }
