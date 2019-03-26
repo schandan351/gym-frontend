@@ -13,7 +13,7 @@ header a{
     text-decoration: none;
 }
 header #logo{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 header nav li{
     display: inline-block;
@@ -35,7 +35,7 @@ header nav a:hover{
     background-image: url(../images/casual-close-up-colors-1954524.jpg);
     background-size: cover;
     background-attachment: fixed;
-
+    background-position: center;
 }
 
 .intro-text{
@@ -79,7 +79,8 @@ header nav a:hover{
 /* start of welcome section */
 #welcome{
     background-color: rgb(11, 114, 80);
-    padding-bottom: 20px;
+    padding: 20px 10px;
+    text-align: center;
 }
 
 #welcome h2{
@@ -95,15 +96,14 @@ header nav a:hover{
 }
 
  #welcome .services{
-    margin-top: 20px;
-    text-align: center;
+    margin: 20px 0px;
 
 }
 #welcome .services h3{
     font-size: 1.5em;
     color:#fff;
-    padding: 15px;
-    border-bottom: 2px solid #fff;
+    padding: 10px;
+    border-bottom: 3px solid #fff;
 }
 /* for work classes */
 .work{
@@ -284,4 +284,60 @@ footer .contact-form button{
     margin: 10px 0px;
    
     display: inline-block;
+}
+
+/* end of footer desing */
+
+/* for resposnsive design using media query */
+@media screen and (min-width:750px){
+    header #logo{
+        display: inline-block;
+        width: 30%;
+    }
+
+    header nav{
+        display: inline-block;
+        width: 60%;
+    }
+
+    #intro{
+        max-height: 500px;
+    }
+    .intro-text{
+        top: 200px;
+    }
+  .work-container .work{
+    display: inline-block;
+    width:30%;
+  }
+  #blog .article{
+      /* display: inline-block; */
+      float: left;
+      width: 42%;
+  }
+
+  #blog .article-container:after{
+      content:'';
+      display: block;
+      clear: both;
+  }
+  #testimonial .Testimonials{
+      float:left;
+      width:50%;
+  }
+    #testimonial .testimonial-container:after{
+        content:'';
+        display: block;
+        clear: both;
+    }
+
+    footer .services ,
+    footer .contact-info{
+        display: inline-block;
+        width: 30%;
+    }
+
+    footer .contact-form input{
+        width: 70%;
+    }
 }
