@@ -34,6 +34,8 @@ header nav a:hover{
     min-height: 450px;
     background-image: url(../images/casual-close-up-colors-1954524.jpg);
     background-size: cover;
+    background-attachment: fixed;
+
 }
 
 .intro-text{
@@ -236,4 +238,50 @@ header nav a:hover{
 
 .Testimonials h6{
     font-size: 1em;
+}
+/* end of testionials designs */
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+footer .services h5{
+    font-size: 2em;
+    color: #fff;
+    padding: 10px;
+}
+footer .services  ul{
+  list-style-type:none;
+}
+
+footer .services ul li{
+    padding: 5px;
+}
+footer a{
+    color: #fff;
+    font-size: 1.1em;
+}
+
+footer .contact-info p{
+    padding: 10px 0px;
+}
+
+footer .contact-form{
+    padding: 10px 20px 10px 0px;
+}
+
+footer .contact-form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+footer .contact-form button{
+    padding: 10px 10px;
+    font-size: 1em;
+    border:none;
+    margin: 10px 0px;
+   
+    display: inline-block;
 }
