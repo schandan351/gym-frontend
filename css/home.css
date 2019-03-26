@@ -73,3 +73,38 @@ header nav a:hover{
 }
 
 /* end of intro section */
+
+/* start of welcome section */
+#welcome{
+    background-color: rgb(11, 114, 80);
+}
+
+#welcome h2{
+    text-align: center;
+    color:#fff;
+    padding:15px;
+    margin: 5px;
+    font-size: 2em;
+}
+.services-container .work-container{
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+.services{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.services h3{
+    font-size: 1.5em;
+    color:#fff;
+    padding: 15px;
+    border-bottom: 2px solid #fff;
+}
+/* for work classes */
+.work{
+    height: 250px;
+   
+    margin: 20px 10px;
+}
