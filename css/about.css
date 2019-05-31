@@ -241,6 +241,9 @@ footer .contact-form input{
 /* end for footer section */
 
 @media screen and (max-width:750px){
+    header #logo{
+        text-align:center;
+    }
     #intro .intro-text{
         background-image: url(../images/adult-blur-close-up-241456.jpg);
         background-attachment: fixed;
